@@ -5,15 +5,78 @@
 	<title>HTML FORM</title>
 </head>
 <body>
-	<form action="">
+	<form action="" method="POST">
+		<!-- Input type text -->
 		<label for="username">Enter Username:</label>
-		<input type="text" name="username" placeholder="Enter Username" id="username">
+		<input type="text" name="username" placeholder="Enter Username" id="username" value="abc" required maxlength="10">
+
+		<br>
+		<!-- Input type password -->
 		<label for="pwd">Enter Password:</label>
 		<input type="password" name="pwd" placeholder="Enter Password" id='pwd'>
+		<br>
 
+		<!-- Input type radio -->
 		<label for="">Gender:</label>
 		Male: <input type="radio" name="gender">
 		Female: <input type="radio" name="gender">
+
+		<br>
+
+		<span>Subjects:</span><br>
+		<!-- input type checkbox -->
+		<label for="eng">English</label>
+		<input type="checkbox" name="eng" id="eng" checked>
+
+		<label for="maths">maths</label>
+		<input type="checkbox" name="maths" id="maths" />
+		
+		<br>
+		<label for="country">Select Country</label>
+		<!-- for muli select box use multiple attribute -->
+		<select name="country" id="country"> 
+			<option value="pak">Pakistan</option>
+			<option value="usa">United State of America</option>
+			<option value="cn">China</option>
+			<option value="other" onclick="document.getElementById('others').style.display='block';">Others</option>
+		</select>
+
+		<textarea style="display: none;" name="" id="others" cols="30" rows="10"></textarea>
+
+		<br>
+		<!-- Multi Line Input Field -->
+		<label for="msg">Message:</label>
+		<textarea name="msg" id="msg" cols="50" rows="2"></textarea>
+		
+
+
+		<br>
+		<!-- input type file -->
+		<label for="pp">Profile Picture:</label>
+		<input type="file" name="profilepic" id="pp" />
+
+		<br><br>
+		<!-- Hidden Input Field  -->
+		<input type="hidden" name="id" id="id" value="1">
+
+		<!-- input type => button , submit, rest  -->
+
+		<input type="reset" value="Clear">
+		
+		<input type="button" value="Delete" >
+
+		<button type="button">Save</button>
+		
+		<input type="submit" value="submit">
+
 	</form>
+
+	<a href="background.mp3">Download Audio</a>
+
+	<audio src="background.mp3" controls=""></audio>
+	<video src="naat.mp4" controls=""></video>
+
+	
+
 </body>
 </html>
