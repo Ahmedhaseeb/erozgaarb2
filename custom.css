@@ -1,0 +1,97 @@
+/* 
+
+	This is comment
+
+	my custom css 
+
+*/
+
+body{
+	/*background-color: #333;
+	background-image: url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
+	background-repeat: no-repeat;
+	
+	background-position: top center : */
+
+	background: rgb(0,0,0) url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png") no-repeat 0 0/cover;
+}	
+
+
+h1{
+	color: orange;
+}
+
+#span1{
+	color:yellow;
+}
+
+
+h1{
+	color:red;
+}
+
+h1{
+	color:pink !important;
+}
+
+h1{
+	color:wheat !important;
+}
+h2{
+	color: magenta;
+}
+
+
+#p1{
+
+	text-align: center;
+}
+img{
+	vertical-align: top;
+}
+
+#span2{
+	text-decoration: line-through;
+}
+
+
+a{
+
+	text-decoration: none;
+}
+
+#indent{
+	text-indent: 50px;
+	text-shadow: 1px 2px 3px black;
+	text-transform: lowercase;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+}
+
+#white_space{
+	text-indent: 40px;
+	white-space: nowrap;
+
+}
+
+#white_space:first-letter, #p3:first-line {
+
+	font-size:40px;
+	color:red;
+}
+
+a:link{
+	color:pink;
+}
+a:visited{
+	color:green;
+}
+a:active{
+	color:red;
+}
+
+
+a:hover{
+
+	font-size: 40px;
+}
