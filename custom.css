@@ -7,13 +7,15 @@
 */
 
 body{
-	/*background-color: #333;
-	background-image: url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
-	background-repeat: no-repeat;
-	
-	background-position: top center : */
+	/* 
+		background-color: #333;
+		background-image: url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
+		background-repeat: no-repeat;
+		
+		background-position: top center : 
+	*/
 
-	background: rgb(0,0,0) url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png") no-repeat 0 0/cover;
+	/*background: rgb(0,0,0) url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png") no-repeat 0 0/cover;*/
 }	
 
 
@@ -25,7 +27,9 @@ h1{
 	color:yellow;
 }
 
-
+h1:hover{
+	transform: rotate(360 deg);
+}
 h1{
 	color:red;
 }

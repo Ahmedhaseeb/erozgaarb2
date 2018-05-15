@@ -3,9 +3,28 @@
 <head>
 	<meta charset="UTF-8">
 	<title>HTML TABLE</title>
+
+	<style>
+			
+			table{
+				border: 5px dotted red;
+				border-style-top: solid;
+				border-top: solid;
+				border-left: double;
+				/*border-collapse: collapse;*/
+				border-spacing: 18px;
+				caption-side: bottom;
+				empty-cells: show;
+				table-layout: auto;
+			}
+
+	</style>
+
 </head>
 <body>
+
 	<table border="1" align="center" cellspacing="10" cellpadding="10">
+		<caption>Table Heading</caption>
 		<thead>
 			<tr>
 				<th>Sr#</th>
@@ -17,9 +36,15 @@
 
 		<tbody>
 			<tr>
+
 				<td>1</td>
 				<td>Hanzala</td>
 				<td>$1000</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
 			</tr>
 
 		</tbody>
