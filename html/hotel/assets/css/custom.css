@@ -1,0 +1,115 @@
+.wrapper{
+	background-color: #c83f03;
+	width: 810px;
+	margin: 0 auto;
+	height: 972px;
+}
+
+
+.h1{
+	font-family: Tahoma;
+	font-size:33px;
+	font-weight: bold;
+	color: #fff;
+	margin-top:7px;
+}
+
+.h2{
+	font-family: Tahoma;
+	font-size: 25PX;
+	color:#ffc600;
+}
+
+.header{
+	height: 85px;
+	background-color: #672101;
+}
+.logo{
+	float: left;
+	padding-left: 23px;
+	padding-top: 17px;
+}
+.header .logo h1{
+	font-family: Tahoma;
+	font-size:33px;
+	color:#ffc600;
+	font-weight: bold;
+}
+
+.header .logo h1 span{
+	color:#fff;
+}
+.logo h2{
+	color:#fff;
+	font-family: Lucida Console;
+	letter-spacing: 12px;
+	font-size: 20px;
+}
+.social{
+	margin-top:10px;
+	width: 245px;
+	float: right;
+}
+.social .thumb{
+	float:left;
+	margin-top: 10px;
+	height: 37px;
+	width: 33px;
+	background-image: url("../images/thumb.png");
+	
+}
+
+.slider{
+	margin:20px auto;
+	width:756px;
+	height: 383px;
+	border:10px solid #fff;
+}
+
+.slider-inner{
+	position:relative;
+	width: 756px;
+	height: 383px;
+	background-image: url("../images/slide1.png");
+}
+
+
+.leftarrow{
+	position: absolute;
+	top:173px;
+	left:-26px;
+	height: 45px;
+	width: 45px;
+	background-image: url("../images/leftarrow.png");
+	
+}
+.rightarrow{
+	position: absolute;
+	height: 45px;
+	width: 45px;
+	background-image: url("../images/rightarrow.png");
+	top:173px;
+	right:-26px;
+}
+
+.bullets{
+	position: absolute;
+	bottom:0;
+	left: 40%;
+	right: 0;
+	background-color: #fff;
+	width: 80px;
+	padding:10px 30px;
+	border-radius: 5px 5px 0 0;
+}
+.bullets li{
+	float: left;
+	height: 20px;
+	width: 20px;
+	margin-right: 10px;
+	border-radius:100%;
+	background-color: #ffd800;
+}
+.bullets li:last-child{
+	margin:0;
+}

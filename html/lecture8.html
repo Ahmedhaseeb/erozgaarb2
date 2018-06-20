@@ -6,12 +6,19 @@
 	<style>
 	body{
 		font-family: calibri;
+		/*font-variant: small-caps;*/
+		font-size: 16px;
 	}
 		#header{
 			background-color: black;
+			padding: 20px 10px 30px 50px;
+			height: 50px;
 		}
 		#header ul li a{
 			color:white;
+		}
+		#header .navbar{
+			float: right;
 		}
 		ul li{
 			list-style: none;
@@ -29,23 +36,41 @@
 			font-size:20px;
 		}
 
-		.left,.right{
-			width:100px;
-			border:1px solid #000;
-			height: 300px;
-		}
-		.content{
 
-			margin:100px;
-			width:auto;
+		.outerbox{
 			border:1px solid #000;
-			height: 300px;
 		}
+		.innerbox{
+
+			margin:20px;
+			height: 400px;
+			width: 100px;
+			border: 1px solid #000;
+		}
+		.box1{
+			width: 19%; 
+			float: left;
+		}
+		.box2{
+			width: 19%;
+			float: right;
+		}
+		.box3{
+			float: left;
+			width: 49%;
+		}
+		.footer{
+			clear: both;
+		}
+
+		.body{
+			clear: both;
+		}		
 	</style>
 </head>
 <body>
 	<div id="header">
-		<ul>
+		<ul class="navbar">
 			<li><a class="common" href="#">Home</a></li>
 			<li><a class="common" href="#">About</a></li>
 			<li><a href="#">Contact Us</a></li>
@@ -56,15 +81,32 @@
 	
 
 	<div class="body">
-			<div class="left">
+		
+
+
+
+		<div class="outerbox">
+			
+			<div class="innerbox box1">
+				
+
+			</div>
+
+
+			<div class="innerbox box3">
 				
 			</div>
-			<div class="content">
+			<div class="innerbox box2">
 				
+
 			</div>
-			<div class="right">
-				
-			</div>
+
+
+		</div>
+		
+
+
+
 	</div>
 
 
