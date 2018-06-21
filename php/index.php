@@ -56,7 +56,14 @@
 
 	);
 
-	echo $tictactoe[2][2];
+
+	print_r($tictactoe);
+
+
+	echo $tictactoe[2][2]; echo "<br>";
+
+
+	echo $tictactoe[2][1];
 ?>
 
 </body>
