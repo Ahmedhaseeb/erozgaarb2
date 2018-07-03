@@ -7,6 +7,112 @@
 <body>
 	<?php 
 
+
+
+// print the following sequence using nested loop
+// *
+// * *
+// * * *
+// * * * *
+// * * * * *
+// * * * * * *
+// * * * * * * *
+// * * * * * * * * 
+// * * * * * * *
+// * * * * * *
+// * * * * * 
+// * * * * 
+// * * *
+// * *
+// *
+
+
+$num = 15;
+$firstHalf =  round($num/2);
+	
+for ($row=1; $row <= $firstHalf ; $row++) { 
+		for ($column = 0; $column < $row; $column++) { 
+			echo "* ";
+		}
+		echo "<br>";
+
+}
+
+$secondHalf = $num - $firstHalf;
+for ($i=$secondHalf; $i > 0; $i--) { 
+	for ($j=0; $j < $i; $j++) { 
+		echo "* ";
+	}
+	echo "<br>";
+}
+
+
+
+
+
+
+die();
+
+
+//print the following sequence
+
+// * * * * * * * * 
+// * * * * * * *
+// * * * * * *
+// * * * * * 
+// * * * * 
+// * * *
+// * *
+// *
+$num = 12;
+for ($i=$num; $i >= 0 ; $i--) { 
+
+	for ($j=0; $j < $i; $j++) { 
+		echo "* ";
+	}
+	echo "<br>";
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//print the following Sequence
+// *
+// * *
+// * * *
+// * * * *
+// * * * * *
+// * * * * * *
+// * * * * * * *
+// * * * * * * * *
+
+
+// for($row = 1; $row <= $num;$row++){
+
+// 	for ($column = 0; $column < $row; $column++) { 
+
+// 		echo "* ";
+// 	}
+// 	echo "<br>";
+// }
+
+
+
+
 	// fabonacci Series
 	// 1 1 2 3 5 8 .....
 	echo "Fabonacci Series: ";
