@@ -7,7 +7,6 @@
 <body>
 	<?php
 
-
 		$msg = "This is my laptop";
 
 		$array2 = explode(" ",$msg);
