@@ -6,6 +6,25 @@
 </head>
 <body>
 	<?php
+	$num = 15;
+
+
+    $m=1;
+    for($i=1; $i<=$num; $i++) { // iterates over number of rows
+        for($j=$i; $j<$num; $j++) {
+            echo "&nbsp;&nbsp;";
+        }
+        for($k=1; $k<=$m; $k++)  {
+            echo "*";
+        }
+        for($c=$m; $c>1; $c--) {
+            echo "*";
+        }
+        echo "<br>";
+        $m++;
+    }
+die();
+
 
 		$msg = "This is my laptop";
 

@@ -1,6 +1,32 @@
 <?php 
 	require_once "functions.php";
 	//phpinfo();
+
+
+
+
+	echo phpversion();
+	die();
+
+
+	if(function_exists("ucfirst")){
+
+		echo ucfirst("ahmed");
+	}else{
+		echo "ucfirst does not exist";
+	}
+
+
+
+
+	$check = function_exists("ucfirst");
+	if($check){
+		echo "Function Exists";
+	}else{
+		echo "Function does not exist";
+	}
+
+	die();
 	echo strrev("!dlroW olleH");
 	echo "<br>";
 	echo strrev("Hello World!");
