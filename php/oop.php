@@ -7,12 +7,12 @@
 <body>
 	<?php 
 
-		$name  = "Ahmed";
-		$abc = $name;
-		$abc = "xyz";
+		// $name  = "Ahmed";
+		// $abc = $name;
+		// $abc = "xyz";
 
-		echo $abc;
-		echo $name;
+		// echo $abc;
+		// echo $name;
 
 
 		class Student{

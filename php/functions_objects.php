@@ -2,12 +2,8 @@
 	require_once "functions.php";
 	//phpinfo();
 
-
-
-
 	echo phpversion();
 	die();
-
 
 	if(function_exists("ucfirst")){
 
@@ -15,9 +11,6 @@
 	}else{
 		echo "ucfirst does not exist";
 	}
-
-
-
 
 	$check = function_exists("ucfirst");
 	if($check){
@@ -39,16 +32,11 @@
 	echo "<br>";
 	echo "i am ". strtolower("CAPITAL");
 
-
-
 	//$x = 10;
 	echo "<br>";
 	$name = "wiLLiam";
 	echo lcfirst(strtoupper($name));
-
-
-
-		$result = Calculate("-", 1, 5);
+	$result = Calculate("-", 1, 5);
 	echo "<br>";
 
 	print_r($result['addition']);
@@ -56,9 +44,6 @@
 	print_r($result['subtration']);
 
 	//Fixing Name
-
-
-
 	$name = [
 			"AhmeD hAsEEb",
 			"SuFiAn",
@@ -71,9 +56,4 @@
 	echo "<pre>"; 
 	print_r(fix_names($name));
 	echo "</pre>";
-
-
-
-	
-
 ?>
