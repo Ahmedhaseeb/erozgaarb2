@@ -14,11 +14,8 @@
 		// echo $abc;
 		// echo $name;
 
-
-class tasbi{
-
+class Tasbi{
 	public $c =0;
-	
 	public function show()
 	{
 		echo $this->c;
@@ -35,7 +32,7 @@ class tasbi{
 		}
 	}
 
-	$s1= new tasbi();
+	$s1= new Tasbi();
 	// $s1->show();
 	// $s1->plus();
 	// $s1->show();
