@@ -115,7 +115,7 @@ if(isset($_SESSION['login']) AND $_SESSION['login'] == "success"){}else{
 								<td>
 									<a href="?action=delete&id=<?php echo $value['id']; ?>">Delete</a>
 									/
-									<a href="?action=update&id=<?php echo $value['id']; ?>">Update</a>
+									<a href="update.php?action=edit&id=<?php echo $value['id']; ?>">Update</a>
 
 
 								</td>
